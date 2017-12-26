@@ -1,0 +1,3 @@
+package: github.com/KirillSleta/go-eventhub
+import:
+- package: github.com/Azure/go-autorest/autorest
