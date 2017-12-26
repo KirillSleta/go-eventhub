@@ -1,7 +1,9 @@
-# Azure EventHub Golang Client Lib
+# Azure EventHub Golang REST client
 
 Azure EventHub client library uses an Azure EventHub (ServiceBus) REST endpoints. 
-Alailable operations:
+The motivation behind this code is absense of simple, not-AMQP, but REST-based client for Azure EventHub
+
+Available operations:
 - CreateEventHub
 - Send
 - SendBatch (be careful - there is 256Kb limitation should be handled by you)
